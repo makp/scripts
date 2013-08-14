@@ -1,24 +1,25 @@
 #!/bin/bash
 
 # evolution:background folder
-/usr/bin/ctags \
-    -f /home/makmiller/Documents/mypapers/evolution/background/TAGS \
-    -e -R \
-    /home/makmiller/Documents/mypapers/evolution/background/
+# /usr/bin/ctags \
+#     -f /home/makmiller/Documents/mypapers/evolution/background/TAGS \
+#     -e -R \
+#     /home/makmiller/Documents/mypapers/evolution/background/
+
     # /home/makmiller/Documents/mypapers/evolution/papers-in-progress/replicator-interactor-framework/replicator-interactor-framework.tex
 
 # logic folder
-/usr/bin/ctags \
-    -f /home/makmiller/Documents/mypapers/logic/TAGS \
-    -e -R \
-    /home/makmiller/Documents/mypapers/logic/
+# /usr/bin/ctags \
+#     -f /home/makmiller/Documents/mypapers/logic/TAGS \
+#     -e -R \
+#     /home/makmiller/Documents/mypapers/logic/
 
     
 # htdX
-/usr/bin/ctags -f /home/makmiller/Documents/howtodo/TAGS -e \
-    /home/makmiller/Documents/howtodo/htdlinux/htdlinux.org \
-    /home/makmiller/Documents/howtodo/htdemacs/htdemacs.org \
-    /home/makmiller/Documents/howtodo/htdlatex/htdlatex.tex
+# /usr/bin/ctags -f /home/makmiller/Documents/howtodo/TAGS -e \
+#     /home/makmiller/Documents/howtodo/htdlinux/htdlinux.org \
+#     /home/makmiller/Documents/howtodo/htdemacs/htdemacs.org \
+#     /home/makmiller/Documents/howtodo/htdlatex/htdlatex.tex
     
 # my emacs configs
 /usr/bin/ctags \
