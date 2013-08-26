@@ -23,9 +23,9 @@
     
 # my emacs configs
 /usr/bin/ctags \
-    -f /home/makmiller/config-files/emacs-config/TAGS \
+    -f /home/makmiller/config-files/general/emacs-config/TAGS \
     -e -R \
-    /home/makmiller/config-files/emacs-config/
+    /home/makmiller/config-files/general/emacs-config/
 
 # my emacs agendas
 /usr/bin/ctags \
