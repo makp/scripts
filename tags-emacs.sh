@@ -6,14 +6,20 @@
 #     /home/makmiller/Documents/howtodo/htdemacs/htdemacs.org \
 
     
-# my emacs configs
+# emacs config
 /usr/bin/ctags \
     -f /home/makmiller/config-files/general/emacs-config/TAGS \
     -e -R \
     /home/makmiller/config-files/general/emacs-config/
 
-# my emacs agendas
+# emacs agendas
 /usr/bin/ctags \
     -f /home/makmiller/elisp/agenda/TAGS \
     -e -R \
     /home/makmiller/elisp/agenda/
+
+# social evolution project
+/usr/bin/ctags \
+    -f /home/makmiller/Documents/mydocs/research-projects/social/TAGS \
+    -e -R \
+    /home/makmiller/Documents/mydocs/research-projects/social/
