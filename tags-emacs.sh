@@ -16,8 +16,8 @@
 /usr/bin/ctags \
     -f /home/makmiller/elisp/agenda/TAGS \
     -e -R \
-    /home/makmiller/elisp/agenda/ \
-    /home/makmiller/elisp/cache/wasteclock.org
+    /home/makmiller/elisp/agenda/ 
+#    /home/makmiller/elisp/cache/wasteclock.org
 
 
 # social evolution project
