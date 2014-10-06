@@ -14,14 +14,14 @@
 
 # emacs agendas
 /usr/bin/ctags \
-    -f /home/makmiller/elisp/agenda/TAGS \
+    -f /home/makmiller/elisp/agendas/TAGS \
     -e -R \
-    /home/makmiller/elisp/agenda/ 
+    /home/makmiller/elisp/agendas/
 #    /home/makmiller/elisp/cache/wasteclock.org
 
 
 # social evolution project
 /usr/bin/ctags \
-    -f /home/makmiller/Documents/mydocs/research-projects/social/TAGS \
+    -f /home/makmiller/Documents/mydocs/research-projects/research_social-evolution/TAGS \
     -e -R \
-    /home/makmiller/Documents/mydocs/research-projects/social/
+    /home/makmiller/Documents/mydocs/research-projects/research_social-evolution/
