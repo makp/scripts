@@ -25,3 +25,9 @@
     -f /home/makmiller/Documents/mydocs/research-projects/research_social-evolution/TAGS \
     -e -R \
     /home/makmiller/Documents/mydocs/research-projects/research_social-evolution/
+
+# biological taxa project
+/usr/bin/ctags \
+    -f /home/makmiller/Documents/mydocs/research-projects/research_bio-taxa/TAGS \
+    -e -R \
+    /home/makmiller/Documents/mydocs/research-projects/research_bio-taxa/
