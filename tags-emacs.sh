@@ -11,7 +11,6 @@
     -e -R \
     /home/makmiller/config-files/general/emacs-config/
 
-
 # emacs agendas
 /usr/bin/ctags \
     -f /home/makmiller/elisp/agendas/TAGS \
@@ -31,3 +30,9 @@
     -f /home/makmiller/Documents/mydocs/research-projects/research_bio-taxa/TAGS \
     -e -R \
     /home/makmiller/Documents/mydocs/research-projects/research_bio-taxa/
+
+# tech notes
+/usr/bin/ctags \
+    -f /home/makmiller/Documents/mydocs/notes/tech-notes/TAGS \
+    -e -R \
+    /home/makmiller/Documents/mydocs/notes/tech-notes/
