@@ -7,9 +7,9 @@
 
 # emacs config
 /usr/bin/ctags \
-    -f /home/makmiller/config-files/general/emacs-config/TAGS \
+    -f /home/makmiller/config-files/general/emacs-configs/TAGS \
     -e -R \
-    /home/makmiller/config-files/general/emacs-config/
+    /home/makmiller/config-files/general/emacs-configs/
 
 # emacs agendas
 /usr/bin/ctags \
