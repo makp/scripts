@@ -7,4 +7,4 @@ setxkbmap dvorak
 xmodmap ~/.Xmodmap
 
 # space2ctl
-s2cctl stop; s2cctl start
+killall s2c; s2cctl start
