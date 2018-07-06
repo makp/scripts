@@ -1,17 +1,12 @@
 #!/bin/bash
 
-# htdX
-# /usr/bin/ctags -f /home/makmiller/Documents/howtodo/TAGS -e \
-#     /home/makmiller/Documents/howtodo/htdlinux/htdlinux.org \
-#     /home/makmiller/Documents/howtodo/htdemacs/htdemacs.org \
-
 # emacs config
 /usr/bin/ctags \
     -f /home/makmiller/config-files/general/emacs-configs/TAGS \
     -e -R \
     /home/makmiller/config-files/general/emacs-configs/
 
-# emacs agendas
+# agendas
 /usr/bin/ctags \
     -f /home/makmiller/elisp/agendas/TAGS \
     -e -R \
@@ -19,13 +14,13 @@
 #    /home/makmiller/elisp/cache/wasteclock.org
 
 
-# social evolution project
+# evolution 
 /usr/bin/ctags \
     -f /home/makmiller/Documents/mydocs/research-projects/research_social-evolution/TAGS \
-    -e -R \
+    -e -R --exclude='_region_.tex' \
     /home/makmiller/Documents/mydocs/research-projects/research_social-evolution/
 
-# biological taxa project
+# biological taxa
 /usr/bin/ctags \
     -f /home/makmiller/Documents/mydocs/research-projects/research_bio-taxa/TAGS \
     -e -R \
