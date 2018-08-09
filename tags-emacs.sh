@@ -9,9 +9,10 @@
 # agendas
 /usr/bin/ctags \
     -f /home/makmiller/elisp/agendas/TAGS \
-    -e -R \
-    /home/makmiller/elisp/agendas/
-#    /home/makmiller/elisp/cache/wasteclock.org
+    -e \
+    /home/makmiller/Documents/mydocs/research-projects/research_social-evolution/ag-evolution.org \
+    /home/makmiller/Documents/mydocs/notes/tech-notes/ag-it.org \
+    -R /home/makmiller/elisp/agendas/
 
 
 # evolution 
