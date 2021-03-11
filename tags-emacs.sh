@@ -10,9 +10,6 @@
 /usr/bin/ctags \
     -f /home/makmiller/elisp/agendas/TAGS \
     -e \
-    /home/makmiller/Documents/mydocs/research-projects/research_social-evolution/evol-dynamics/ag-evolution.org \
-    /home/makmiller/Documents/mydocs/research-projects/research_social-evolution/group-redundancy/ag-group-redundancy.org \
-    /home/makmiller/Documents/mydocs/notes/tech-notes/ag-it.org \
     -R /home/makmiller/elisp/agendas/
 
 
