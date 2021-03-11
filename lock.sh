@@ -1,8 +1,6 @@
 #!/bin/sh -e
 
-i3lock -i ~/Pictures/wallpapers/lock-screen-picture.png
-# My wallpaper is giving me an error (out of memory). Maybe I should
-# make the file smaller
+i3lock -c 616160
 
 # Turn the screen off after a delay
 sleep 60; pgrep i3lock && xset dpms force off
