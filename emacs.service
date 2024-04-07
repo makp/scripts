@@ -1,0 +1,11 @@
+[Unit]
+Description=Emacs: the extensible, self-documenting text editor
+
+[Service]
+Type=forking
+ExecStart=/bin/sh -c 'source $HOME/.zshenv; exec /usr/bin/emacs --daemon'
+ExecStop=/usr/bin/emacsclient --eval "(kill-emacs)"
+Restart=always
+
+[Install]
+WantedBy=default.target
